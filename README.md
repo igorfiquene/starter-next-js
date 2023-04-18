@@ -1,6 +1,6 @@
 # Starter Next.js project with docker
 
-This project is a production Docker setup for a Next.js app.
+A starter Next.js with Docker (dev and prod containers), Jest, Typescript, Styled Components, ESLINT.
 
 ## Development environment
 
@@ -19,9 +19,9 @@ make stop-dev ## Stop the development docker container.
 - Run in root folder
 
 ```bash
-make start-prod ## Start the development docker container.
+make start-prod ## Start the production docker container.
 ```
 
 ```bash
-make stop-prod ## Stop the development docker container.
+make stop-prod ## Stop the production docker container.
 ```
